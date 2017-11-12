@@ -7,23 +7,22 @@
 
 .container{
 	background-color: #000000;
-	text-align: center;
 	color: #FFFFFF;
-	height: 108px; 
+	height: 200px;
+
 
            /*parte 1*/ 
+       }
 
 h1{
-    width: 100px;
-    font-family: 'Exo 2', sans-serif;
-	font-size: 40px;
-	display: inline-block;
-	background-color: #FFFFFF;
-
+   background-color: #FFFFFF;
+   text-align: center;
+   font-family: 'Exo 2', sans-serif;
+   height: 50px;
 }
 
 .contenedor img{
-	height: 50px;
+	height: 100%;
 
 
 }
@@ -39,19 +38,29 @@ body{
 	width: 400px;
 	height: 200px;
 	padding: 20px;
-	margin-left: 200px;
+	margin-left: 250px;
 	margin-right: 5px;
 	background-color: #FFFFFF;
 	font-family: 'Exo 2', sans-serif;
 	display: inline-block;
+	border-radius: 5%;
+	vertical-align: top;
+	margin-top: 90px;
 }
+
+
+            /*Parte 3*/
+
 .cajita-2{
+	vertical-align: top;
 	width: 400px;
 	height: 200px;
 	padding: 20px;
 	background-color:#FFFFFF;
 	font-family: 'Exo 2', sans-serif;
 	display: inline-block;
+	border-radius: 5%;
+	margin-top: 90px;
 }
 
 hr{
@@ -91,17 +100,10 @@ hr{
 
 
 
-
-footer{
-	background-color: #000000;
-	color: #FFFFFF;
-	padding: 1em 1em;
-	text-align: center;
-	font-weight: 400px;
-	font-family: 'Raleway', sans-serif;
-	size: 10px;
-}
-
 .cajita{
 	margin-bottom: 200px;
+}
+
+#container{
+	margin-top: 10px;
 }
